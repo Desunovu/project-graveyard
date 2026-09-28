@@ -1,0 +1,87 @@
+type Result{
+    status: Boolean!
+    errors: [Error!]!
+}
+
+type LoginResult{
+    status: Boolean!
+    errors: [Error!]!
+    token: String
+}
+
+type UserResult {
+    status: Boolean!
+    errors: [Error!]!
+    user: User
+}
+
+type UsersResult {
+    status: Boolean!
+    errors: [Error!]!
+    users: [User!]
+}
+
+type ProductResult {
+    status: Boolean!
+    errors: [Error!]!
+    product: Product
+}
+
+type ProductsResult {
+    status: Boolean!
+    errors: [Error!]!
+    products: [Product!]
+}
+
+type CartResult {
+    status: Boolean!
+    errors: [Error!]!
+    cart: [CartLine!]
+    cartTotal: Int
+}
+
+type CartLineResult {
+    status: Boolean!
+    errors: [Error!]!
+    cartline: CartLine
+}
+
+type CategoryResult {
+    status: Boolean!
+    errors: [Error!]!
+    category: Category
+}
+
+type CategoriesResult {
+    status: Boolean!
+    errors: [Error!]!
+    categories: [Category!]
+}
+
+type ReviewResult {
+    status: Boolean!
+    errors: [Error!]!
+    review: Review
+}
+
+type OrderResult {
+    status: Boolean!
+    errors: [Error!]!
+    order: Order
+}
+
+type OrdersResult {
+    status: Boolean!
+    errors: [Error!]!
+    orders: [Order!]
+}
+
+type CharacteristicResult {
+    status: Boolean!
+    errors: [Error!]!
+    characteristic: Characteristic
+}
+
+type PresignedUrlResult {
+    presignedUrl: String
+}
