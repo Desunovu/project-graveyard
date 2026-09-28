@@ -1,0 +1,10 @@
+/build/
+/dist/
+/RSLogix_generator.spec
+/*.L5X
+/.idea/
+/dist.7z
+/import/~$data.xlsx
+/import/~$PLC.xlsx
+/dist.rar
+/examples/
